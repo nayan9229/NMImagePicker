@@ -13,9 +13,17 @@
 		BD1BED6C1E70076400FEE799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1BED6A1E70076400FEE799 /* Main.storyboard */; };
 		BD1BED6E1E70076400FEE799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1BED6D1E70076400FEE799 /* Assets.xcassets */; };
 		BD1BED711E70076400FEE799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1BED6F1E70076400FEE799 /* LaunchScreen.storyboard */; };
+		BD1BED7D1E70086C00FEE799 /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BED7C1E70086C00FEE799 /* ImagePicker.m */; };
+		BD1BED801E70256400FEE799 /* NMImageObj.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BED7F1E70256400FEE799 /* NMImageObj.m */; };
+		BD1BED831E702FA700FEE799 /* NMImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1BED821E702FA700FEE799 /* NMImageCell.m */; };
+		BD1BED851E703A0100FEE799 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1BED841E703A0100FEE799 /* AssetsLibrary.framework */; };
+		BDA2C9601E8BBFA2002B367E /* ImageUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA2C95F1E8BBFA2002B367E /* ImageUploader.m */; };
+		CF5B228A3F758B1F3F63DB56 /* libPods-NMImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC597F25687D99FBD3B33BA4 /* libPods-NMImagePicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2091220EFCF1C3513237060D /* Pods-NMImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMImagePicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMImagePicker/Pods-NMImagePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		A4967D29946C3F5302E130AC /* Pods-NMImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMImagePicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMImagePicker/Pods-NMImagePicker.release.xcconfig"; sourceTree = "<group>"; };
 		BD1BED5E1E70076400FEE799 /* NMImagePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMImagePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1BED621E70076400FEE799 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD1BED641E70076400FEE799 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,16 @@
 		BD1BED6D1E70076400FEE799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1BED701E70076400FEE799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1BED721E70076400FEE799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1BED7B1E70086C00FEE799 /* ImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
+		BD1BED7C1E70086C00FEE799 /* ImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
+		BD1BED7E1E70256400FEE799 /* NMImageObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMImageObj.h; sourceTree = "<group>"; };
+		BD1BED7F1E70256400FEE799 /* NMImageObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMImageObj.m; sourceTree = "<group>"; };
+		BD1BED811E702FA700FEE799 /* NMImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMImageCell.h; sourceTree = "<group>"; };
+		BD1BED821E702FA700FEE799 /* NMImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMImageCell.m; sourceTree = "<group>"; };
+		BD1BED841E703A0100FEE799 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BDA2C95E1E8BBFA2002B367E /* ImageUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUploader.h; sourceTree = "<group>"; };
+		BDA2C95F1E8BBFA2002B367E /* ImageUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUploader.m; sourceTree = "<group>"; };
+		CC597F25687D99FBD3B33BA4 /* libPods-NMImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NMImagePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1BED851E703A0100FEE799 /* AssetsLibrary.framework in Frameworks */,
+				CF5B228A3F758B1F3F63DB56 /* libPods-NMImagePicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75D879EE9D2EDA18BC462844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2091220EFCF1C3513237060D /* Pods-NMImagePicker.debug.xcconfig */,
+				A4967D29946C3F5302E130AC /* Pods-NMImagePicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD1BED551E70076400FEE799 = {
 			isa = PBXGroup;
 			children = (
 				BD1BED601E70076400FEE799 /* NMImagePicker */,
 				BD1BED5F1E70076400FEE799 /* Products */,
+				75D879EE9D2EDA18BC462844 /* Pods */,
+				F8B0FFAE148F4F92CDA7CAC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +93,19 @@
 				BD1BED651E70076400FEE799 /* AppDelegate.m */,
 				BD1BED671E70076400FEE799 /* ViewController.h */,
 				BD1BED681E70076400FEE799 /* ViewController.m */,
+				BD1BED7B1E70086C00FEE799 /* ImagePicker.h */,
+				BD1BED7C1E70086C00FEE799 /* ImagePicker.m */,
+				BD1BED7E1E70256400FEE799 /* NMImageObj.h */,
+				BD1BED7F1E70256400FEE799 /* NMImageObj.m */,
+				BD1BED811E702FA700FEE799 /* NMImageCell.h */,
+				BD1BED821E702FA700FEE799 /* NMImageCell.m */,
 				BD1BED6A1E70076400FEE799 /* Main.storyboard */,
 				BD1BED6D1E70076400FEE799 /* Assets.xcassets */,
 				BD1BED6F1E70076400FEE799 /* LaunchScreen.storyboard */,
 				BD1BED721E70076400FEE799 /* Info.plist */,
 				BD1BED611E70076400FEE799 /* Supporting Files */,
+				BDA2C95E1E8BBFA2002B367E /* ImageUploader.h */,
+				BDA2C95F1E8BBFA2002B367E /* ImageUploader.m */,
 			);
 			path = NMImagePicker;
 			sourceTree = "<group>";
@@ -79,6 +118,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F8B0FFAE148F4F92CDA7CAC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD1BED841E703A0100FEE799 /* AssetsLibrary.framework */,
+				CC597F25687D99FBD3B33BA4 /* libPods-NMImagePicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD1BED751E70076400FEE799 /* Build configuration list for PBXNativeTarget "NMImagePicker" */;
 			buildPhases = (
+				084DBFB629462C7333FDB212 /* [CP] Check Pods Manifest.lock */,
 				BD1BED5A1E70076400FEE799 /* Sources */,
 				BD1BED5B1E70076400FEE799 /* Frameworks */,
 				BD1BED5C1E70076400FEE799 /* Resources */,
+				D1C7D5406F53D4D8EDF632F6 /* [CP] Embed Pods Frameworks */,
+				CDE88AE8AC3AB0AEAD893C52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +197,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		084DBFB629462C7333FDB212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE88AE8AC3AB0AEAD893C52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMImagePicker/Pods-NMImagePicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C7D5406F53D4D8EDF632F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMImagePicker/Pods-NMImagePicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD1BED5A1E70076400FEE799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BD1BED691E70076400FEE799 /* ViewController.m in Sources */,
+				BD1BED7D1E70086C00FEE799 /* ImagePicker.m in Sources */,
+				BD1BED831E702FA700FEE799 /* NMImageCell.m in Sources */,
 				BD1BED661E70076400FEE799 /* AppDelegate.m in Sources */,
+				BDA2C9601E8BBFA2002B367E /* ImageUploader.m in Sources */,
 				BD1BED631E70076400FEE799 /* main.m in Sources */,
+				BD1BED801E70256400FEE799 /* NMImageObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +374,7 @@
 		};
 		BD1BED761E70076400FEE799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2091220EFCF1C3513237060D /* Pods-NMImagePicker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3TS56PQVJ2;
@@ -283,6 +387,7 @@
 		};
 		BD1BED771E70076400FEE799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4967D29946C3F5302E130AC /* Pods-NMImagePicker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3TS56PQVJ2;
@@ -312,6 +417,7 @@
 				BD1BED771E70076400FEE799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
